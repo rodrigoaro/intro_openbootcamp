@@ -1,9 +1,9 @@
 package cl.personal;
 
-public class Main {
+public class EjerciciosTema3 {
 
     public static void main(String[] args) {
-	    System.out.println(sumarNumeros(2, 5, 8));
+        System.out.println(sumarNumeros(2, 5, 8));
         Coche miCoche = new Coche();
         miCoche.aumentarNroPuertas(1);
         System.out.println(miCoche.nroPuertas);
